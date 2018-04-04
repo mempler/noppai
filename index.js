@@ -4,7 +4,11 @@ const path = require('path');
  * @function
  * @param {string} BeatmapPath 
  * @example
- * noppai(__dirname + "The big Black.osu")
+ * const noppai = noppai(__dirname + "The big Black.osu")
+ * @example
+ * noppai.CalculatePP();
+ * @example 
+ * noppai.CalculateStars();
  */
 function noppai(BeatmapPath) {
   this.nop = require('bindings')('noppai')(path.join(BeatmapPath));
