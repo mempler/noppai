@@ -1,0 +1,17 @@
+{
+  "name": "oppai-ng-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mempler",
+  "license": "MIT",
+  "repository": "https://git.gigamons.de/Mempler/noppai/",
+  "scripts": {
+    "install": "node-gyp build",
+    "test": "node tests/test.js",
+    "build": "node-gyp rebuild; node tests/test.js"
+  },
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.10.0"
+  }
+}
