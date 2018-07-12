@@ -1,0 +1,3 @@
+[submodule "lib/oppai"]
+	path = lib/oppai
+	url = https://github.com/Francesco149/oppai-ng.git
