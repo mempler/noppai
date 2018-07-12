@@ -2,9 +2,9 @@
   "targets": [
     {
       "target_name": "noppai",
-      "sources": [ "src/noppai.cc" ],
+      "sources": [ "src/noppai.cpp", "src/bindings.cpp" ],
       "include_dirs": [
-        "src/oppai-ng/",
+        "lib/oppai/",
         "<!(node -e \"require('nan')\")"
       ]
     }

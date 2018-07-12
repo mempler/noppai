@@ -1,27 +1,12 @@
 {
   "name": "noppai",
-  "description": "Noppai has Native bindings for Oppai-ng",
-  "version": "1.0.0",
+  "version": "0.0.5a",
+  "description": "Noppai(no(de.js)p(erformance)p(oints)a(trificial)i(nteligence)) are the NodeJS Native bindings for Oppai-NG.",
   "main": "index.js",
-  "author": "Mempler",
+  "repository": "https://github.com/Mempler/noppai",
+  "author": "Mempler <me@mempler.de>",
   "license": "MIT",
-  "repository": "https://git.gigamons.de/Mempler/noppai/",
-  "keywords": [
-    "oppai-ng",
-    "osu",
-    "performance-points",
-    "pp",
-    "mempler"
-  ],
-  "scripts": {
-    "test": "node tests/test.js",
-    "build": "node-gyp rebuild; node tests/test.js"
-  },
   "dependencies": {
-    "bindings": "^1.3.0",
     "nan": "^2.10.0"
-  },
-  "devDependencies": {
-    "node-gyp": "^3.6.2"
   }
 }
